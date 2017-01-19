@@ -1,0 +1,25 @@
+extends partials/master
+
+block title
+	title Crusader
+
+include partials/mixins
+
+block content
+
+	//- include partials/header
+	video#bgvid(poster='image/poster.png', playsinline='true', autoplay='true',  loop='true')
+		source(src='video/ketama.mp4', type='video/mp4')
+	   
+	#background-video-index
+		h1 126
+	     
+		button
+			i.fa.fa-pause
+
+
+
+	//- include partials/footer
+
+	//- include partials/analytics
+	
