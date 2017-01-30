@@ -4,10 +4,72 @@
 
 // Rules just for positioning. The l- prefixed classes are so to distinguish layout elements from modules
 
-.l-header {}
+.l-header {
+}
 
 .l-main {}
 
 .l-sidebar {}
 
 .l-footer {}
+
+
+// .navbar-header {
+// 	margin: 0 auto;
+// }
+
+// .navbar.navbar-default {
+// 	min-height: 120px;
+// 	border: none;
+// 	margin-top: 0;
+// 	padding-top: 15px;
+// 	background-color: rgba(255,255,255,0);
+// }
+
+// .navbar.navbar-default li a {
+// 	font-family: 'Montserrat', sans-serif;
+// 	font-weight: 300;
+// 	color: #fff;
+// 	margin-top: 20px;
+// 	font-size: 1.5em;
+// 	text-transform: uppercase;
+// 	border-right: 1px solid #000;
+// }
+
+// .navbar.navbar-default li a:hover {
+// 	color: #999;
+// }
+
+.navigation {
+	text-align: center;
+	margin-top: 40px;
+	padding: 0;
+	margin-right: 20px;
+}
+
+.navigation li {
+	display: inline;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-weight: 700;
+}
+
+.navigation li a {
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.navigation li a:hover {
+	text-decoration: none;
+	color: #731d65;
+	font-weight: 700;
+}
+
+.navigation li a:focus {
+	text-decoration: none;
+	color: #731d65;
+	font-weight: 700;
+}

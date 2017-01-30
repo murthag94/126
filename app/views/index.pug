@@ -8,14 +8,17 @@ include partials/mixins
 block content
 
 	//- include partials/header
-	video#bgvid(poster='image/poster.png', playsinline='true', autoplay='true',  loop='true')
-		source(src='video/ketama.mp4', type='video/mp4')
-	   
-	#background-video-index
-		h1 126
-	     
-		button
-			i.fa.fa-pause
+
+	.index-video
+		video#bgvid(poster='image/poster.png', playsinline='true', muted='true', autoplay='true',  loop='true')
+			source(src='video/ketama.mp4', type='video/mp4')
+		   
+		#background-video-index
+			h1.video-title
+				a(href="/inside.html") 126
+		     
+			button
+				i.fa.fa-pause
 
 
 

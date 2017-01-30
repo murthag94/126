@@ -9,6 +9,8 @@
 // 	console.log("is not mobile")	
 // }
 
+
+// Script video index
 var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#background-video-index button");
 
@@ -35,4 +37,5 @@ pauseButton.addEventListener("click", function() {
     pauseButton.innerHTML = '<i class="fa fa-play"></i>';
   }
 })
+// End script index
 
