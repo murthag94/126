@@ -36,6 +36,6 @@
     "gulp-useref": "^3.1.0",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0",
-    "wiredep": "^4.0.0"
+    "wiredep": "git+https://github.com/taptapship/wiredep.git"
   }
 }
