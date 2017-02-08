@@ -12,29 +12,14 @@ block content
 		.central-logo
 			a(href='/inside.html')
 				img(src='images/logo126.png')
-
-	//- .container-fluid
-	//- 	.row.music-container
-	//- 		.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 		.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 		.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 		.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-	//- 			iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
+		.row
+			ul.navigation
+				li
+					a(href="/music.html") Music
+				li
+					a(href="#") Tour
+				li 
+					a(href="/info.html") Info
 
 	.container-fluid
 		.music-wrapper
@@ -44,25 +29,25 @@ block content
 				button.button(data-filter='.ketama') Ketama
 				button.button(data-filter='.franco') Franco
 				button.button(data-filter='.seany') Seany
-		.row
-			.grid
-				.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes.element-item.carl.franco(data-category='transition')
-					iframe(width='100%', height='270', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
-					
-				.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes.element-item.ketama(data-category='metalloid')
-					iframe(width='100%', height='270', src='https://www.youtube.com/embed/_0_UKXj3PIY?rel=0', frameborder='0', allowfullscreen='')
-					
-				.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes.element-item.seany(data-category='post-transition')
-					iframe(width='100%', height='270', src='https://www.youtube.com/embed/uXwMFxuXR8c?rel=0', frameborder='0', allowfullscreen='')
+		
+		.grid
+			.music-boxes.element-item.carl.franco(data-category='transition')
+				iframe(width='100%', height='265', src='https://www.youtube.com/embed/8YX91VZlaYU?rel=0', frameborder='0', allowfullscreen='')
+				
+			.music-boxes.element-item.ketama(data-category='metalloid')
+				iframe(width='100%', height='265', src='https://www.youtube.com/embed/_0_UKXj3PIY?rel=0', frameborder='0', allowfullscreen='')
+				
+			.music-boxes.element-item.seany(data-category='post-transition')
+				iframe(width='100%', height='265', src='https://www.youtube.com/embed/uXwMFxuXR8c?rel=0', frameborder='0', allowfullscreen='')
 
-				.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes.element-item.carl.franco(data-category='transition')
-					iframe(width='100%', height='270', src='https://www.youtube.com/embed/ZjSwojRx1FE?rel=0', frameborder='0', allowfullscreen='')
-					
-				.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes.element-item.ketama(data-category='metalloid')
-					iframe(width='100%', height='270', src='https://www.youtube.com/embed/S1V2rjnQrmU?rel=0', frameborder='0', allowfullscreen='')
-					
-				.col-lg-3.col-md-3.col-sm-6.col-xs-12.music-boxes.element-item.seany(data-category='post-transition')
-					iframe(width='100%', height='270', src='https://www.youtube.com/embed/X0ZVEvtxtlI?rel=0', frameborder='0', allowfullscreen='')
+			.music-boxes.element-item.carl.franco(data-category='transition')
+				iframe(width='100%', height='265', src='https://www.youtube.com/embed/ZjSwojRx1FE?rel=0', frameborder='0', allowfullscreen='')
+				
+			.music-boxes.element-item.ketama(data-category='metalloid')
+				iframe(width='100%', height='265', src='https://www.youtube.com/embed/S1V2rjnQrmU?rel=0', frameborder='0', allowfullscreen='')
+				
+			.music-boxes.element-item.seany(data-category='post-transition')
+				iframe(width='100%', height='265', src='https://www.youtube.com/embed/X0ZVEvtxtlI?rel=0', frameborder='0', allowfullscreen='')
 			
 		
 			

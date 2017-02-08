@@ -118,6 +118,7 @@ body {
 
 .central-logo {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .central-logo img {
@@ -310,10 +311,15 @@ input[type="text"] {
   box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
 }
 
+.button:active,
+.button:focus {
+  outline: 0;
+}
+
 /* ---- button-group ---- */
 .music-wrapper {
   width: 455.28px;
-  margin: 50px auto 0 auto;
+  margin: 30px auto 0 auto;
 }
 
 .button-group:after {
@@ -336,7 +342,11 @@ input[type="text"] {
 
 .grid {
   border: 1px solid #a13b91;
-  margin-top: 50px;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 100%;
+  margin: 40px 0 0 0;
+  padding: 0;
 }
 
 /* clear fix */
@@ -351,7 +361,6 @@ input[type="text"] {
 .element-item {
   position: relative;
   width: 25%;
-  margin: 5px;
 }
 
 .element-item > * {
@@ -359,51 +368,69 @@ input[type="text"] {
   padding: 0;
 }
 
-// .element-item .name {
-//   position: absolute;
+// -----------------------------------------
+.btn-primary, 
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.btn-primary.focus, 
+.btn-primary:active, 
+.btn-primary:focus, 
+.btn-primary:hover, 
+.open>.dropdown-toggle.btn-primary {
+    background-color: #3bc0c3;
+    border: 1px solid #3bc0c3;
+}
+.p-t-10 {
+    padding-top: 10px !important;
+}
+.media-main a.pull-left {
+    width: 100px;
+}
+.thumb-lg {
+    height: 84px;
+    width: 84px;
+}
+.media-main .info {
+    overflow: hidden;
+    color: #000;
+}
+.media-main .info h4 {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.social-links li a {
+    background: #EFF0F4;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #7A7676;
+}
+.panel {
+  margin: 10px 30px;
+  background-color: transparent;
+}
+.contact-list {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 40px 0 0 0;
+}
+.social-links li a {
+  color: #a13b91;
+  background-color: transparent;
+  font-size: 1.3em;
+}
 
-//   left: 10px;
-//   top: 60px;
-//   text-transform: none;
-//   letter-spacing: 0;
-//   font-size: 12px;
-//   font-weight: normal;
-// }
-
-// .element-item .symbol {
-//   position: absolute;
-//   left: 10px;
-//   top: 0px;
-//   font-size: 42px;
-//   font-weight: bold;
-//   color: white;
-// }
-
-// .element-item .number {
-//   position: absolute;
-//   right: 8px;
-//   top: 5px;
-// }
-
-// .element-item .weight {
-//   position: absolute;
-//   left: 10px;
-//   top: 76px;
-//   font-size: 12px;
-// }
-
-// .element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
-// .element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
-// .element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
-// .element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
-// .element-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
-// .element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
-// .element-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
-// .element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
-// .element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
-// .element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
-
-
+hr {
+  border-color: #a13b91;
+}
 // --------------------------------------
 .music-boxes {
   margin: 0;
@@ -411,6 +438,60 @@ input[type="text"] {
 }
 
 .music-container {
-  margin: 50px 0 0 0;
+  margin: 40px 0 0 0;
   padding: 0 50px;
+}
+
+.img-gang {
+  width: 100%;
+}
+
+h4 {
+  color: #a13b91;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.booking-title h3 {
+  font-size: 3em;
+  color: #a13b91;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.booking-info li  {
+  color: white;
+  font-weight: 300;
+  font-size: 1.3em !important;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+.booking-info a {
+    color: white;
+    font-weight: 300;
+    font-size: 1.1em !important;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+
+}
+.booking-info p {
+    color: white;
+    font-weight: 300;
+    font-size: 1.1em !important;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+
+}
+.booking-info {
+  padding: 0;
+}
+.booking-info a
+.booking-title {
+  display: block;
+  width: 100%;
 }

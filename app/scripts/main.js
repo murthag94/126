@@ -11,6 +11,9 @@
 
 
 
+$(function(){
+ $("a[data-toggle='tooltip']").tooltip();
+});
 
 // quick search regex
 var qsRegex;
@@ -19,7 +22,7 @@ var buttonFilter;
 // init Isotope
 var $grid = $('.grid').isotope({
   itemSelector: '.element-item',
-  layoutMode: 'fitRows',
+  // layoutMode: 'fitRows',
   filter: function() {
     var $this = $(this);
     var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
