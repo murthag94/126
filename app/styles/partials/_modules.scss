@@ -498,3 +498,32 @@ h4 {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+
+.news-box {
+  text-align: center;
+  
+  display: block;
+
+  h4 {
+    font-size: 2em;
+    color: white;
+    margin-top: 20px;
+    padding-top: 30px;
+    border-top: 1px dotted #a13b91;
+  }
+
+  h3 {
+    font-size: 3em;
+    color: #a13b91;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+  }
+
+  p {
+    color: white;
+    font-weight: 1em;
+  }
+}
+
